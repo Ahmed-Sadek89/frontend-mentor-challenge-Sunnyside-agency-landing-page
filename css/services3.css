@@ -1,0 +1,43 @@
+.services3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.services3 section{
+    width: 50%;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.services3 section:nth-child(1){
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+}
+
+.services3 section:nth-child(2){
+    background-image: url("../images/desktop/image-photography.jpg");
+}
+
+.services3 section div {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 30px 150px;
+    color: #23574d;
+}
+
+.services3 section div h3{
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+}
+.services3 section div p{ 
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
