@@ -41,3 +41,53 @@
     font-size: 15px;
     line-height: 25px;
 }
+
+@media(min-width: 0px) {
+    .services3{
+        flex-direction: column;
+    }
+    .services3 section{
+        width: 100%;
+        height: 800px;
+    }
+    .services3 section:nth-child(1){
+        background-image: url("../images/mobile/image-graphic-design.jpg");
+    }
+    
+    .services3 section:nth-child(2){
+        background-image: url("../images/mobile/image-photography.jpg");
+    }
+    .services3 section div {
+        padding: 30px 0px;
+    }
+    .services3 section div p{ 
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+}
+
+@media(min-width: 900px) { 
+    .services3{
+        flex-direction: row;
+    }
+    .services3 section{
+        width: 50%;
+        height: 600px;
+    }
+    .services3 section:nth-child(1){
+        background-image: url("../images/desktop/image-graphic-design.jpg");
+    }
+    
+    .services3 section:nth-child(2){
+        background-image: url("../images/desktop/image-photography.jpg");
+    }
+    .services3 section div {
+        padding: 30px 150px;
+    }
+    .services3 section div p{ 
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 25px;
+    }
+}

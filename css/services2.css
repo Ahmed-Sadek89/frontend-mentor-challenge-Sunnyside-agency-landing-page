@@ -1,3 +1,15 @@
 .services2{
     flex-direction: row;
 }
+
+@media(min-width: 0px) {
+    .services2{
+        flex-direction: column;
+    }
+}
+
+@media(min-width: 900px) {
+    .services2{
+        flex-direction: row;
+    }
+}

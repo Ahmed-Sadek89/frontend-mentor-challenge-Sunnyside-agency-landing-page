@@ -1,9 +1,25 @@
 .gallery{
     display: flex;
     font-display: row;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .gallery img {
     width: 25%;
     height: 500px;
+}
+
+@media(min-width: 0px){
+    .gallery img {
+        width: 50%;
+        height: 250px;
+    }
+}
+
+@media(min-width: 700px){
+    .gallery img {
+        width: 25%;
+        height: 500px;
+    }
 }

@@ -36,3 +36,46 @@
     font-family: "Fraunces", serif;
     text-transform: uppercase;
 }
+
+@media(min-width: 0px){
+    .services1 {
+        flex-direction: column;
+    }
+    .services1 img {
+        width: 100%;
+    }
+    
+    .services1 div {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .services1 div h2 {
+        line-height: 1;
+    }
+    .services1 div p {
+        line-height: 1.6;
+    }
+}
+
+
+@media(min-width: 900px){
+    .services1 {
+        flex-direction: row-reverse;
+    }
+    .services1 img {
+        width: 50%;
+    }
+    
+    .services1 div {
+        width: 50%;
+        align-items: start;
+        text-align: left;
+    }
+    .services1 div h2 {
+        line-height: 1.4;
+    }
+    .services1 div p {
+        line-height: 1;
+    }
+}

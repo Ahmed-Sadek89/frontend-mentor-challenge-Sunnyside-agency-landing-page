@@ -64,3 +64,28 @@
     font-size: 14px;
     font-weight: 600;
 }
+
+
+@media(min-width: 0px) {
+    .testimonials div {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .testimonials div section p {
+        padding: 0px 150px;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 900px) {
+    .testimonials div {
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .testimonials div section p {
+        padding: 0px 100px;
+        font-weight: normal;
+    }
+}
